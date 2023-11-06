@@ -16,7 +16,6 @@ h3{
   color : #00FFFF
 }
  */
-/* Reset some default browser styles */
 body {
   margin: 0;
   padding: 0;
@@ -25,42 +24,33 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: #222; /* Fallback color in case the image doesn't load */
-  color: #fff; /* Text color */
+  background-color: #222; 
+  color: #fff;
 }
 
-/* Style the header */
 h1 {
   font-size: 36px;
   margin: 0;
   color: #ff9900; /* Orange */
 }
-
-/* Style the name and school details */
 h1 + p {
   color: #ccc; /* Light gray */
   font-style: italic;
 }
 
-/* Style the image */
 img {
   max-width: 200px;
   height: auto;
+  border-radius: 20%;
 }
-
-/* Style the main content */
 p {
   font-size: 18px;
   margin: 10px 0;
 }
-
-/* Style the horizontal line */
 hr {
   border: 2px solid #ff9900;
   margin: 20px 0;
 }
-
-/* Style the educational details and skills */
 h3 {
   font-size: 24px;
   color: #ff9900;
@@ -70,8 +60,6 @@ h3 {
 ul {
   list-style-type: square;
 }
-
-/* Style the resume and contact links */
 a {
   color: #00bfff; /* Blue */
   text-decoration: none;
@@ -80,8 +68,6 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
-/* Style the skills table */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -91,19 +77,13 @@ td {
   padding: 8px;
   border: 1px solid #ccc;
 }
-
-/* Style the star ratings */
 td:last-child {
   font-size: 20px;
   color: #FFD700;
 }
-
-/* Style the ordered list in Hobbies section */
 ol {
   list-style-type: decimal;
 }
-
-/* Add some spacing around the links */
 h3 a {
   margin-right: 20px;
 }
